@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Electrician Sutherland Shire &amp; Greater Sydney | Oltech Electrical</title>
+<meta name="description" content="Oltech Electrical is a licensed electrical contractor based in the Sutherland Shire. Residential, commercial, EV charger installation, fault finding and switchboard upgrades across Greater Sydney. Call 0450 722 284.">
+<link rel="canonical" href="https://www.oltechelectrical.com.au/">
+<meta property="og:site_name" content="Oltech Electrical">
+<meta property="og:title" content="Electrician Sutherland Shire &amp; Greater Sydney | Oltech Electrical">
+<meta property="og:description" content="Licensed electrical contractor. Residential, commercial, EV charging and fault finding across Greater Sydney.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_AU">
+<meta property="og:url" content="https://www.oltechelectrical.com.au/">
+<meta property="og:image" content="https://www.oltechelectrical.com.au/images/pendants.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#FAF8F5">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23FAF8F5'/%3E%3Cpath d='M56 14 30 56h18l-6 30 28-44H52l4-28z' fill='%23191D22'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script>document.documentElement.className='js';</script>
+<style>
+:root{
+  --paper:#FAF8F5; --paper-2:#F2EEE8; --tint:#EBF6FD; --white:#fff;
+  --ink:#191D22; --ink-2:#333C45; --soft:#5E6B76; --soft-2:#8A959E;
+  --line:#E3DDD4; --line-2:#D3E7F5;
+  --sky:#BDE7FF; --sky-mid:#6AB2DB; --sky-deep:#2A7BA8;
+  --gap:clamp(72px,9vw,132px);
+  --r:14px; --r-sm:8px; --r-lg:22px;
+  --shadow:0 1px 2px rgba(25,29,34,.04),0 8px 24px -12px rgba(25,29,34,.10);
+  --shadow-h:0 2px 4px rgba(25,29,34,.05),0 22px 48px -18px rgba(25,29,34,.20);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Poppins',system-ui,sans-serif;background:var(--paper);color:var(--ink-2);line-height:1.68;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+h1,h2,h3,h4{line-height:1.14;font-weight:600;letter-spacing:-.025em;color:var(--ink)}
+em{font-style:normal;color:var(--sky-deep)}
+.wrap{max-width:1280px;margin:0 auto;padding:0 26px}
+section{padding:var(--gap) 0;position:relative}
+:focus-visible{outline:2px solid var(--sky-deep);outline-offset:3px}
+.mono{font-size:.62rem;letter-spacing:.24em;text-transform:uppercase;color:var(--soft-2)}
+
+.mark{display:flex;align-items:center;gap:14px;margin-bottom:26px}
+.mark .no{width:28px;height:28px;border-radius:50%;border:1px solid var(--line);display:grid;place-items:center;font-size:.66rem;color:var(--sky-deep);font-weight:600;background:var(--white)}
+.mark .lb{font-size:.64rem;letter-spacing:.24em;text-transform:uppercase;color:var(--soft-2)}
+.head{max-width:780px;margin-bottom:54px}
+.head h2{font-size:clamp(1.85rem,4.2vw,3.05rem)}
+.head p{color:var(--soft);margin-top:20px;max-width:620px}
+
+#entry{position:fixed;inset:0;background:var(--paper);z-index:9999;display:grid;place-items:center;transition:opacity .8s ease,visibility .8s}
+#entry.gone{opacity:0;visibility:hidden}
+#entry img{width:min(64vw,290px)}
+#entry .bar{width:0;height:2px;background:var(--sky-mid);margin:26px auto 0;animation:ld 1.4s cubic-bezier(.6,0,.2,1) forwards}
+@keyframes ld{to{width:180px}}
+
+header{position:fixed;top:0;left:0;right:0;z-index:900;padding:18px 0;transition:.35s}
+header.sc{background:rgba(250,248,245,.94);backdrop-filter:blur(14px);padding:10px 0;border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.nav .brand img{height:50px;width:auto;transition:.35s}
+header.sc .brand img{height:38px}
+.links{display:flex;gap:26px;align-items:center}
+.links a{font-size:.7rem;letter-spacing:.15em;text-transform:uppercase;font-weight:500;color:var(--ink-2);transition:.25s}
+.links a:hover{color:var(--sky-deep)}
+.cta-btn{background:var(--ink);color:var(--paper)!important;padding:12px 22px;border-radius:100px;font-weight:600;letter-spacing:.12em!important}
+.cta-btn:hover{background:var(--sky-deep);color:var(--white)!important}
+.burger{display:none;flex-direction:column;gap:5px;background:none;border:0;cursor:pointer;padding:8px}
+.burger span{width:25px;height:2px;background:var(--ink);transition:.3s}
+.mnav{position:fixed;inset:0;background:var(--paper);z-index:899;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:22px;transform:translateX(100%);transition:.45s cubic-bezier(.6,0,.2,1)}
+.mnav.open{transform:none}
+.mnav a{font-size:1.25rem;letter-spacing:.05em;text-transform:uppercase;color:var(--ink)}
+
+/* hero: split, copy on paper, photo full bleed */
+.hero{display:grid;grid-template-columns:1.02fr .98fr;min-height:100svh;align-items:center;gap:clamp(20px,3vw,44px);padding:0 clamp(20px,3vw,44px) 0 0}
+.hero-copy{display:flex;flex-direction:column;justify-content:center;padding:150px clamp(26px,4vw,72px) 60px;max-width:760px;margin-left:auto;width:100%}
+.hero-media{position:relative;overflow:hidden;background:var(--paper-2);border-radius:var(--r-lg);height:clamp(420px,78vh,760px);box-shadow:var(--shadow)}
+.hero-media img{width:100%;height:100%;object-fit:cover}
+
+.tagline{display:flex;align-items:center;gap:12px;margin-bottom:24px}
+.tagline i{width:28px;height:1px;background:var(--sky-mid);display:block}
+.tagline span{color:var(--sky-deep)}
+.hero h1{font-size:clamp(2.2rem,4.6vw,3.9rem);margin-bottom:26px}
+.hero .lede{color:var(--soft);font-size:clamp(1rem,1.3vw,1.08rem);max-width:540px;margin-bottom:34px}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:17px 32px;border-radius:100px;font-size:.73rem;letter-spacing:.16em;text-transform:uppercase;font-weight:600;transition:.3s;border:1px solid transparent;cursor:pointer;font-family:inherit}
+.b1{background:var(--ink);color:var(--paper)}
+.b1:hover{background:var(--sky-deep);color:var(--white);transform:translateY(-2px)}
+.b2{border-color:var(--ink);color:var(--ink)}
+.b2:hover{background:var(--ink);color:var(--paper)}
+
+.rail{border-top:1px solid var(--line);margin-top:clamp(44px,5vw,72px)}
+.rail-g{display:grid;grid-template-columns:repeat(4,1fr)}
+.rl{padding:26px 18px 0}
+.rl .k{font-size:clamp(1.35rem,2.2vw,1.85rem);font-weight:600;letter-spacing:-.03em;color:var(--sky-deep)}
+.rl .v{font-size:.6rem;letter-spacing:.18em;text-transform:uppercase;color:var(--soft-2);margin-top:6px}
+
+.duo{display:grid;grid-template-columns:1.05fr .95fr;align-items:stretch;gap:clamp(18px,2.4vw,32px);max-width:1280px;margin:0 auto;padding:0 26px}
+.duo .pane{background:var(--white);border-radius:var(--r);padding:clamp(38px,4.2vw,64px);display:flex;flex-direction:column;justify-content:center;box-shadow:var(--shadow)}
+.duo .shot{position:relative;overflow:hidden;min-height:500px;background:var(--paper-2);border-radius:var(--r);box-shadow:var(--shadow)}
+.duo .shot img{width:100%;height:100%;object-fit:cover;transition:transform 1.1s cubic-bezier(.2,.6,.3,1)}
+.duo:hover .shot img{transform:scale(1.04)}
+.tag{position:absolute;left:20px;bottom:18px;border-radius:100px;border-left:0;box-shadow:var(--shadow);z-index:3;background:rgba(250,248,245,.92);backdrop-filter:blur(6px);border-left:2px solid var(--sky-mid);padding:9px 15px;font-size:.6rem;letter-spacing:.2em;text-transform:uppercase;color:var(--ink)}
+.pane h2{font-size:clamp(1.55rem,2.8vw,2.3rem);margin-bottom:20px}
+.pane p{color:var(--soft);margin-bottom:15px}
+
+.tinted{background:var(--tint);border-radius:var(--r-lg);max-width:1332px;margin:0 auto}
+.tinted .wrap,.tinted .std,.tinted .steps,.tinted .areas{padding-left:clamp(26px,3vw,46px);padding-right:clamp(26px,3vw,46px)}
+.std{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(14px,1.6vw,20px);max-width:1280px;margin:0 auto;padding:0 26px}
+.si{background:var(--white);border-radius:var(--r);padding:34px 30px;position:relative;transition:.4s;box-shadow:var(--shadow)}
+.si:hover{box-shadow:var(--shadow-h)}
+.si .n{font-size:.64rem;letter-spacing:.2em;color:var(--sky-deep);font-weight:600;margin-bottom:14px;display:block}
+.si h4{font-size:1rem;margin-bottom:9px;font-weight:600}
+.si p{color:var(--soft);font-size:.88rem}
+.si .code{position:absolute;top:34px;right:30px;font-size:.56rem;letter-spacing:.16em;color:#A9C9DE}
+.note{color:var(--soft-2);font-size:.82rem;margin-top:26px}
+
+.svcs{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line)}
+.sv{background:var(--white);padding:44px 32px 38px;position:relative;overflow:hidden;transition:.4s;display:block}
+.sv::before{content:"";position:absolute;top:0;left:0;height:3px;width:0;background:var(--sky-mid);transition:.45s}
+.sv:hover{background:var(--paper)}
+.sv:hover::before{width:100%}
+.sv .top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:28px}
+.sv .ic{width:42px;height:42px;border-radius:50%;border:1px solid var(--line);display:grid;place-items:center;color:var(--sky-deep);transition:.4s;background:var(--tint)}
+.sv:hover .ic{background:var(--ink);color:var(--sky);border-color:var(--ink)}
+.sv .code{font-size:.56rem;letter-spacing:.16em;color:#C4BCB0}
+.sv h3{font-size:1.08rem;margin-bottom:11px}
+.sv p{color:var(--soft);font-size:.89rem}
+.sv .go{margin-top:20px;font-size:.63rem;letter-spacing:.18em;text-transform:uppercase;color:var(--sky-deep);font-weight:600;display:inline-flex;gap:8px;transition:.3s}
+.sv:hover .go{gap:14px}
+
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(20px,3vw,44px);max-width:1280px;margin:0 auto;padding:0 26px;position:relative}
+.steps::before{content:"";position:absolute;left:34px;right:34px;top:19px;height:1px;background:linear-gradient(90deg,var(--sky-mid),var(--line) 70%)}
+.sp{background:transparent;padding:0;position:relative;padding-top:58px}
+.sp::before{content:"";position:absolute;top:12px;left:0;width:15px;height:15px;border-radius:50%;background:var(--paper);border:2px solid var(--sky-mid)}
+.sp::after{content:"";position:absolute;top:17px;left:5px;width:5px;height:5px;border-radius:50%;background:var(--sky-deep)}
+.sp .l{font-size:.6rem;letter-spacing:.2em;color:var(--sky-deep);margin-bottom:14px}
+.sp h4{font-size:1.02rem;margin-bottom:11px}
+.sp p{color:var(--soft);font-size:.88rem}
+
+/* gallery, feature layout */
+.gal{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:280px;gap:clamp(14px,1.6vw,20px);max-width:1280px;margin:0 auto;padding:0 26px}
+.gi{position:relative;overflow:hidden;background:var(--paper-2);border-radius:var(--r);box-shadow:var(--shadow);transition:box-shadow .4s ease}
+.gi:hover{box-shadow:var(--shadow-h)}
+.gi.wide{grid-column:span 2}
+.gi.tall{grid-row:span 2}
+.gi img{width:100%;height:100%;object-fit:cover;transition:transform 1s cubic-bezier(.2,.6,.3,1)}
+.gi:hover img{transform:scale(1.05)}
+.gi .ov{position:absolute;inset:0;background:linear-gradient(to top,rgba(25,29,34,.84) 0%,rgba(25,29,34,.06) 48%,transparent 72%);display:flex;flex-direction:column;justify-content:flex-end;padding:26px}
+.gi .c{font-size:.56rem;letter-spacing:.18em;color:var(--sky);margin-bottom:7px}
+.gi h4{font-size:.98rem;font-weight:500;color:var(--white)}
+.ig-tile{grid-column:span 2;background:var(--ink);border-radius:var(--r);display:flex;flex-direction:column;justify-content:center;align-items:flex-start;padding:34px 30px;transition:.35s}
+.ig-tile:hover{background:var(--sky-deep)}
+.ig-tile svg{color:var(--sky);margin-bottom:18px}
+.ig-tile h4{color:var(--white);font-size:1.05rem;margin-bottom:8px}
+.ig-tile p{color:#9BA6B0;font-size:.85rem}
+.ig-tile span{margin-top:16px;font-size:.63rem;letter-spacing:.18em;text-transform:uppercase;color:var(--sky);font-weight:600}
+
+/* testimonials */
+.revs{display:grid;grid-template-columns:1.35fr 1fr;gap:clamp(16px,2vw,24px);max-width:1280px;margin:0 auto;padding:0 26px}
+.rev{background:var(--white);border-radius:var(--r);padding:clamp(36px,3.8vw,56px);display:flex;flex-direction:column;justify-content:center;box-shadow:var(--shadow)}
+.rev .stars{color:var(--sky-deep);letter-spacing:.22em;font-size:.85rem;margin-bottom:20px}
+.rev blockquote{font-size:clamp(1.02rem,1.7vw,1.3rem);color:var(--ink);font-weight:300;line-height:1.68;margin-bottom:24px}
+.rev .by{font-size:.66rem;letter-spacing:.2em;text-transform:uppercase;color:var(--soft-2)}
+.rev .by b{color:var(--ink);font-weight:600;display:block;margin-bottom:4px;letter-spacing:.14em}
+.rev-side{background:var(--tint);border-radius:var(--r);padding:clamp(36px,3.8vw,50px);display:flex;flex-direction:column;justify-content:center}
+.rev-side h4{font-size:1.15rem;margin-bottom:12px}
+.rev-side p{color:var(--soft);font-size:.9rem;margin-bottom:22px}
+.rev-side .btn{align-self:flex-start}
+.qf .btn{border-radius:100px}
+@media(max-width:1080px){
+  .gal{grid-template-columns:repeat(2,1fr);grid-auto-rows:250px}
+  .gi.wide{grid-column:span 2}
+  .gi.tall{grid-row:span 1}
+  .ig-tile{grid-column:span 2}
+  .revs{grid-template-columns:1fr}
+}
+
+.areas{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(22px,3vw,46px);max-width:1280px;margin:0 auto;padding:0 26px}
+.ar{background:transparent;padding:26px 0 0;border-top:1px solid var(--line);transition:border-color .4s ease}
+.ar:hover{border-color:var(--sky-mid)}
+.ar .l{font-size:.6rem;letter-spacing:.2em;color:var(--sky-deep);margin-bottom:15px}
+.ar h4{font-size:1rem;margin-bottom:11px}
+.ar p{color:var(--soft);font-size:.85rem}
+
+.faq{max-width:900px}
+.q{border-bottom:1px solid var(--line)}
+.q button{width:100%;text-align:left;background:none;border:0;padding:26px 50px 26px 0;font-family:inherit;font-size:1rem;font-weight:500;cursor:pointer;position:relative;color:var(--ink)}
+.q button::after{content:"";position:absolute;right:8px;top:50%;width:13px;height:2px;background:var(--sky-deep);transform:translateY(-50%)}
+.q button::before{content:"";position:absolute;right:13.5px;top:50%;width:2px;height:13px;background:var(--sky-deep);transform:translateY(-50%);transition:.3s}
+.q.open button::before{transform:translateY(-50%) rotate(90deg);opacity:0}
+.a{max-height:0;overflow:hidden;transition:max-height .45s cubic-bezier(.4,0,.2,1)}
+.a p{padding:0 44px 26px 0;color:var(--soft);font-size:.93rem}
+
+.line-band{background:var(--sky);color:var(--ink);padding:clamp(52px,6.5vw,88px) clamp(20px,3vw,44px);border-radius:var(--r-lg);max-width:1332px;margin:0 auto}
+.line-band .mark .no{border-color:rgba(25,29,34,.25);color:var(--ink);background:transparent}
+.line-band .mark .lb,.line-band .mono{color:rgba(25,29,34,.6)}
+.line-band h2{font-size:clamp(1.85rem,4.2vw,3.05rem);max-width:760px;margin-bottom:26px}
+.line-band em{color:var(--ink);opacity:.5}
+.big-num{font-size:clamp(1.9rem,4vw,2.8rem);font-weight:600;letter-spacing:-.03em;display:inline-block;margin-bottom:20px;color:var(--ink)}
+.line-band .b1{background:var(--ink);color:var(--sky)}
+.line-band .b1:hover{background:#000;color:var(--sky)}
+.line-band .b2{border-color:rgba(25,29,34,.4);color:var(--ink)}
+.line-band .b2:hover{background:var(--ink);color:var(--sky)}
+
+.qg{display:grid;grid-template-columns:1fr 1fr;gap:clamp(16px,2vw,28px);max-width:1280px;margin:0 auto;padding:0 26px}
+.qc{background:transparent;padding:clamp(10px,2vw,24px) 0}
+.qc h2{font-size:clamp(1.65rem,3vw,2.4rem);margin-bottom:18px}
+.qc>p{color:var(--soft);margin-bottom:30px}
+.cl{display:flex;padding:16px 0;border-bottom:1px solid var(--line);font-size:.96rem;color:var(--ink);transition:.3s}
+.cl:hover{color:var(--sky-deep);padding-left:6px}
+.cl small{color:var(--soft-2);font-size:.6rem;letter-spacing:.2em;text-transform:uppercase;display:block;margin-bottom:5px}
+.qf{background:var(--white);border-radius:var(--r);padding:clamp(36px,3.6vw,50px) clamp(26px,2.8vw,44px);box-shadow:var(--shadow)}
+.fd{margin-bottom:18px}
+.fd label{display:block;font-size:.6rem;letter-spacing:.2em;text-transform:uppercase;color:var(--soft-2);margin-bottom:8px}
+.fd input,.fd select,.fd textarea{width:100%;background:var(--paper);border:1px solid var(--line);border-radius:var(--r-sm);padding:15px 16px;color:var(--ink);font-family:inherit;font-size:.94rem;transition:.25s}
+.fd input:focus,.fd select:focus,.fd textarea:focus{outline:0;border-color:var(--sky-mid);background:var(--white)}
+.fd textarea{min-height:100px;resize:vertical}
+.fine{color:var(--soft-2);font-size:.74rem;margin-top:13px;text-align:center}
+
+footer{background:var(--ink);color:var(--paper);padding:76px 0 0;border-radius:var(--r-lg) var(--r-lg) 0 0;margin-top:clamp(40px,5vw,72px)}
+footer h4{color:var(--white)}
+.fg{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:44px;padding-bottom:50px}
+.fg img{height:58px;width:auto;margin-bottom:22px}
+.fg h4{font-size:.62rem;letter-spacing:.2em;text-transform:uppercase;margin-bottom:20px}
+.fg p,.fg a{color:#9BA6B0;font-size:.88rem;display:block;margin-bottom:10px}
+.fg a:hover{color:var(--sky)}
+.fb{border-top:1px solid #2C333A;padding:24px 0;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+.fb p{color:#6D7883;font-size:.75rem}
+.callbar{display:none;position:fixed;bottom:14px;left:14px;right:14px;border-radius:100px;box-shadow:var(--shadow-h);z-index:800;background:var(--ink);color:var(--sky);text-align:center;padding:15px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;font-size:.76rem}
+
+.rv{opacity:1}
+.js .rv{opacity:0;transform:translateY(26px);transition:opacity .8s cubic-bezier(.2,.6,.3,1),transform .8s cubic-bezier(.2,.6,.3,1)}
+.js .rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.js .rv{opacity:1!important;transform:none!important}}
+
+@media(max-width:1080px){
+  .std{grid-template-columns:repeat(2,1fr)}
+  .steps,.areas{grid-template-columns:repeat(2,1fr)}
+  .steps::before{display:none}
+}
+@media(max-width:880px){
+  .links{display:none}.burger{display:flex}
+  .nav .brand img,header.sc .brand img{height:40px}
+  .hero{grid-template-columns:1fr;min-height:0;padding:96px 20px 0;gap:24px}
+  .hero-media{min-height:0;height:52vh;order:-1;border-radius:var(--r)}
+  .hero-media::after{background:linear-gradient(to bottom,rgba(250,248,245,.4),transparent 40%)}
+  .hero-copy{padding:44px 26px 56px;max-width:none}
+  .duo{grid-template-columns:1fr}
+  .duo .shot{min-height:330px;order:-1}
+  .qg{grid-template-columns:1fr}
+
+  .fg{grid-template-columns:1fr;gap:30px}
+  .callbar{display:block}
+  body{padding-bottom:52px}
+}
+@media(max-width:580px){
+  .std,.steps,.areas,.gal{grid-template-columns:1fr}
+  .steps::before{display:none}
+  .gal{grid-auto-rows:240px}
+  .gi.wide,.ig-tile{grid-column:span 1}
+  .rail-g{grid-template-columns:1fr 1fr;gap:18px 0}
+}
+
+/* ---------- premium layer ---------- */
+.grain{position:fixed;inset:0;z-index:950;pointer-events:none;opacity:.032;mix-blend-mode:multiply;
+ background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+
+/* headline line reveal */
+.ln{display:block;overflow:hidden}
+.ln > span{display:block;transform:translateY(110%);transition:transform 1.05s cubic-bezier(.16,.84,.28,1)}
+.loaded .ln > span{transform:none}
+.loaded .ln:nth-child(2) > span{transition-delay:.09s}
+.loaded .ln:nth-child(3) > span{transition-delay:.18s}
+.js .fade-up{opacity:0;transform:translateY(22px);transition:opacity .9s cubic-bezier(.2,.6,.3,1),transform .9s cubic-bezier(.2,.6,.3,1)}
+.loaded .fade-up{opacity:1;transform:none}
+.loaded .fade-up.d1{transition-delay:.32s}
+.loaded .fade-up.d2{transition-delay:.42s}
+.loaded .fade-up.d3{transition-delay:.54s}
+
+/* hero image ken burns + parallax */
+.hero-media img{transform:scale(1.14);transition:transform 2.4s cubic-bezier(.16,.84,.28,1);will-change:transform}
+.loaded .hero-media img{transform:scale(1.02)}
+.hero-media .curtain{position:absolute;inset:0;background:var(--paper);transform-origin:top;transition:transform 1.25s cubic-bezier(.16,.84,.28,1);z-index:2}
+.loaded .hero-media .curtain{transform:scaleY(0)}
+
+/* keyword ticker */
+.ticker{background:var(--ink);color:var(--paper);padding:16px 0;overflow:hidden;white-space:nowrap;position:relative}
+.ticker::before,.ticker::after{content:"";position:absolute;top:0;bottom:0;width:90px;z-index:2;pointer-events:none}
+.ticker::before{left:0;background:linear-gradient(90deg,var(--ink),transparent)}
+.ticker::after{right:0;background:linear-gradient(270deg,var(--ink),transparent)}
+.tick-t{display:inline-block;animation:tk 42s linear infinite;font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;font-weight:500}
+.ticker:hover .tick-t{animation-play-state:paused}
+.tick-t i{font-style:normal;padding:0 26px;color:var(--paper)}
+.tick-t i b{color:var(--sky);font-weight:500;padding-left:26px}
+@keyframes tk{to{transform:translateX(-50%)}}
+
+/* staggered section reveals */
+.js .rv{opacity:0;transform:translateY(26px);transition:opacity .85s cubic-bezier(.2,.6,.3,1),transform .85s cubic-bezier(.2,.6,.3,1)}
+.js .rv.in{opacity:1;transform:none}
+.js .st-1.in{transition-delay:.06s}.js .st-2.in{transition-delay:.12s}.js .st-3.in{transition-delay:.18s}
+.js .st-4.in{transition-delay:.24s}.js .st-5.in{transition-delay:.3s}.js .st-6.in{transition-delay:.36s}
+
+/* image wipe reveal */
+.js .wipe{clip-path:inset(0 0 100% 0);transition:clip-path 1.15s cubic-bezier(.16,.84,.28,1)}
+.js .wipe.in{clip-path:inset(0 0 0 0)}
+
+/* refined interactions */
+.btn{position:relative;overflow:hidden}
+.btn span.t{position:relative;z-index:2}
+.b1::after{content:"";position:absolute;inset:0;background:var(--sky-deep);transform:translateY(101%);transition:transform .45s cubic-bezier(.16,.84,.28,1)}
+.b1:hover::after{transform:none}
+.b1:hover{transform:translateY(-2px);color:var(--white)}
+.b2::after{content:"";position:absolute;inset:0;background:var(--ink);transform:translateY(101%);transition:transform .45s cubic-bezier(.16,.84,.28,1)}
+.b2:hover::after{transform:none}
+.b2:hover{color:var(--paper)}
+.links a{position:relative}
+.links a::after{content:"";position:absolute;left:0;bottom:-5px;height:1px;width:0;background:var(--sky-deep);transition:width .4s cubic-bezier(.16,.84,.28,1)}
+.links a:hover::after{width:100%}
+.links a.cta-btn::after{display:none}
+.si,.ar{transition:box-shadow .4s ease,transform .4s cubic-bezier(.2,.6,.3,1)}
+.si:hover,.ar:hover{transform:translateY(-3px)}
+.gi .ov{transition:background .5s ease}
+.gi .ov > *{transition:transform .55s cubic-bezier(.16,.84,.28,1)}
+.gi:hover .ov > *{transform:translateY(-5px)}
+.rl .k{transition:color .4s ease}
+.duo .shot img,.gi img{will-change:transform}
+.mark .no{transition:background .4s ease,color .4s ease,border-color .4s ease}
+section:hover .mark .no{border-color:var(--sky-mid)}
+.q button{transition:color .3s ease,padding-left .35s cubic-bezier(.16,.84,.28,1)}
+.q button:hover{color:var(--sky-deep);padding-left:8px}
+.big-num{position:relative;display:inline-block}
+.big-num::after{content:"";position:absolute;left:0;bottom:2px;height:2px;width:0;background:var(--ink);transition:width .55s cubic-bezier(.16,.84,.28,1)}
+.big-num:hover::after{width:100%}
+
+@media (prefers-reduced-motion:reduce){
+  .ln > span{transform:none!important}
+  .hero-media img{transform:scale(1.02)!important}
+  .hero-media .curtain{display:none}
+  .tick-t{animation:none}
+  .js .wipe{clip-path:none!important}
+  .js .fade-up{opacity:1!important;transform:none!important}
+}
+
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Electrician","@id":"https://www.oltechelectrical.com.au/#business",
+"name":"Oltech Electrical","url":"https://www.oltechelectrical.com.au/","telephone":"+61450722284",
+"email":"oliver@oltechelectrical.com.au","priceRange":"$$","currenciesAccepted":"AUD",
+"logo":"https://www.oltechelectrical.com.au/images/logo.png",
+"image":"https://www.oltechelectrical.com.au/images/pendants.jpg",
+"address":{"@type":"PostalAddress","addressLocality":"Sutherland Shire","addressRegion":"NSW","addressCountry":"AU"},
+"areaServed":[{"@type":"City","name":"Sutherland Shire"},{"@type":"City","name":"St George"},{"@type":"City","name":"Eastern Suburbs"},{"@type":"City","name":"Inner West"},{"@type":"City","name":"Greater Sydney"}],
+"hasOfferCatalog":{"@type":"OfferCatalog","name":"Electrical services","itemListElement":[
+{"@type":"Offer","itemOffered":{"@type":"Service","name":"Residential electrical"}},
+{"@type":"Offer","itemOffered":{"@type":"Service","name":"Commercial electrical"}},
+{"@type":"Offer","itemOffered":{"@type":"Service","name":"EV charger installation"}},
+{"@type":"Offer","itemOffered":{"@type":"Service","name":"Fault finding and repairs"}},
+{"@type":"Offer","itemOffered":{"@type":"Service","name":"Switchboard upgrades"}},
+{"@type":"Offer","itemOffered":{"@type":"Service","name":"Electrical maintenance"}}]},
+"review":[{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"5","bestRating":"5"},"author":{"@type":"Person","name":"Max S."},"reviewBody":"We have been using Ollie as our electrician for more than five years and wouldn't hesitate to recommend him. He is always professional, reliable and punctual, and consistently delivers a high standard of workmanship."}],
+"sameAs":["https://www.instagram.com/oltech_electrical"]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"Are you licensed and insured?","acceptedAnswer":{"@type":"Answer","text":"Yes. Oltech Electrical holds electrical contractor licence 462275C and carries full public liability insurance. The licence number is on every quote and invoice."}},
+{"@type":"Question","name":"Do you charge for quotes?","acceptedAnswer":{"@type":"Answer","text":"No. Quotes are free and itemised, so you can see what each part of the job costs before committing to anything."}},
+{"@type":"Question","name":"How much does it cost to install an EV charger?","acceptedAnswer":{"@type":"Answer","text":"It depends on the distance from your switchboard to the charger and whether the board has spare capacity. The quote will say if a board upgrade is needed rather than leaving it as a surprise on install day."}},
+{"@type":"Question","name":"Do you work with builders on new homes?","acceptedAnswer":{"@type":"Answer","text":"Regularly. Rough-in through to fit-off on new builds, renovations and extensions, working to the builder's program."}},
+{"@type":"Question","name":"What areas do you cover?","acceptedAnswer":{"@type":"Answer","text":"Based in the Sutherland Shire and working across Greater Sydney, including St George, the Inner West and the Eastern Suburbs."}},
+{"@type":"Question","name":"How quickly can you get to a fault?","acceptedAnswer":{"@type":"Answer","text":"Call and you get a real answer on timing rather than a maybe. Faults leaving a property without power get priority."}}]}
+</script>
+</head>
+<body>
+<div class="grain" aria-hidden="true"></div>
+
+<div id="entry"><div style="text-align:center">
+<img src="images/logo-dark.png" alt="Oltech Electrical">
+<div class="bar"></div></div></div>
+
+<header id="hdr"><div class="wrap nav">
+<a href="#top" class="brand"><img src="images/logo-dark.png" alt="Oltech Electrical"></a>
+<nav class="links">
+<a href="#about">About</a><a href="#process">How it works</a><a href="#work">Work</a>
+<a href="#reviews">Reviews</a><a href="#areas">Areas</a><a href="#faq">FAQ</a>
+<a href="tel:0450722284" class="cta-btn">0450 722 284</a></nav>
+<button class="burger" id="burger" aria-label="Open menu"><span></span><span></span><span></span></button>
+</div></header>
+<nav class="mnav" id="mnav">
+<a href="#about">About</a><a href="#process">How it works</a><a href="#work">Work</a>
+<a href="#reviews">Reviews</a><a href="#areas">Areas</a><a href="#faq">FAQ</a>
+<a href="#quote" style="color:#2A7BA8">Get a quote</a>
+<a href="tel:0450722284" style="color:#2A7BA8">0450 722 284</a></nav>
+
+<!-- HERO -->
+<section class="hero" id="top">
+<div class="hero-copy">
+<div class="tagline fade-up"><i></i><span class="mono">Oltech Electrical &middot; Sutherland Shire &amp; Greater Sydney</span></div>
+<h1><span class="ln"><span>Precision in every</span></span><span class="ln"><span>connection.</span></span><span class="ln"><span><em>Confidence in every job.</em></span></span></h1>
+<p class="lede fade-up d1">Licensed electrical contractor working across residential, commercial and industrial sites. Eight years on the tools, and one person accountable for the work from quote to final fit-off.</p>
+<div class="btns fade-up d2">
+<a href="tel:0450722284" class="btn b1"><span class="t">Call 0450 722 284</span></a>
+<a href="#quote" class="btn b2"><span class="t">Get a free quote</span></a>
+</div>
+<div class="rail fade-up d3"><div class="rail-g">
+<div class="rl"><div class="k" data-count="8">8</div><div class="v">Years on the tools</div></div>
+<div class="rl"><div class="k" data-count="6">6</div><div class="v">Services covered</div></div>
+<div class="rl"><div class="k" data-count="1">1</div><div class="v">Person accountable</div></div>
+<div class="rl"><div class="k">SYD</div><div class="v">Greater Sydney</div></div>
+</div></div>
+</div>
+<div class="hero-media"><div class="curtain"></div><img src="images/pendants.jpg" alt="Pendant lighting installed by Oltech Electrical over a dining table" width="990" height="1416"></div>
+</section>
+
+
+<div class="ticker" aria-hidden="true"><div class="tick-t" id="tick"></div></div>
+
+<!-- 1 ABOUT -->
+<section id="about" style="padding-bottom:0"><div class="wrap">
+<div class="mark rv"><span class="no">1</span><span class="lb">Introducing Oltech</span></div>
+<div class="head rv"><h2>Reliable electrical work, and the same bloke <em>on every job.</em></h2></div>
+</div>
+<div class="duo">
+<div class="pane rv">
+<p>Oltech Electrical was founded with a simple goal: reliable, high quality electrical work, and long term relationships built on trust and workmanship rather than the cheapest quote.</p>
+<p>Eight years across residential, commercial and industrial projects came first. Based in the Sutherland Shire, Oltech now services the Greater Sydney area.</p>
+<p>The person who quotes the job is the person who does it, and the person you call if something is not right. No account managers, no crew you have never met.</p>
+<p class="mono" style="margin-top:20px;color:var(--sky-deep)">Licence 462275C &nbsp;&middot;&nbsp; ABN 81 336 642 971</p>
+</div>
+<div class="shot wipe rv"><img src="images/oliver.jpg" alt="Oliver, licensed electrician and owner of Oltech Electrical" loading="lazy" width="898" height="1074"><span class="tag">Oliver &middot; Owner</span></div>
+</div>
+</section>
+
+<!-- 2 THE STANDARD -->
+<section id="standard" class="tinted"><div class="wrap">
+<div class="mark rv"><span class="no">2</span><span class="lb">The Oltech standard</span></div>
+<div class="head rv"><h2>What every job comes with. <em>Before a price is quoted.</em></h2></div>
+</div>
+<div class="std">
+<div class="si rv st-1"><span class="n">01</span><span class="code">OE&ndash;LC</span><h4>Licensed and insured</h4><p>Contractor licence 462275C and full public liability, listed on every quote and invoice.</p></div>
+<div class="si rv st-2"><span class="n">02</span><span class="code">OE&ndash;QT</span><h4>Itemised quote</h4><p>Every stage priced separately so you can see what drives the cost before anyone starts.</p></div>
+<div class="si rv st-3"><span class="n">03</span><span class="code">OE&ndash;SC</span><h4>Site check first</h4><p>The switchboard and supply get looked at before a number is put on the job.</p></div>
+<div class="si rv st-4"><span class="n">04</span><span class="code">OE&ndash;CC</span><h4>Compliance certificate</h4><p>Issued on completion for every job that requires one, no chasing needed.</p></div>
+<div class="si rv st-5"><span class="n">05</span><span class="code">OE&ndash;PT</span><h4>Turn up on time</h4><p>On site at the agreed start. If something changes you get a call, not silence.</p></div>
+<div class="si rv st-6"><span class="n">06</span><span class="code">OE&ndash;CL</span><h4>Left clean</h4><p>Off-cuts, packaging and dust taken with us. The place looks like we were never there.</p></div>
+</div>
+<div class="wrap"><p class="note rv">Certificates of currency and licence details available on request.</p></div>
+</section>
+
+<!-- 3 HOW IT WORKS -->
+<section id="process"><div class="wrap">
+<div class="mark rv"><span class="no">3</span><span class="lb">How it works</span></div>
+<div class="head rv"><h2>Simple and direct. Tell us the job, <em>we tell you the number.</em></h2>
+<p>The order matters. Most of the horror stories start with someone quoting a price before they looked at the board.</p></div>
+</div>
+<div class="steps">
+<div class="sp rv st-1"><div class="l">STEP / 01</div><h4>Tell us the job</h4><p>Suburb, what needs doing and rough timing. Two minutes on the phone or through the form.</p></div>
+<div class="sp rv st-2"><div class="l">STEP / 02</div><h4>Site check</h4><p>A look at the switchboard, the supply and what the job actually involves before anything is priced.</p></div>
+<div class="sp rv st-3"><div class="l">STEP / 03</div><h4>Itemised quote</h4><p>Every stage listed and priced separately, so nothing lands as a surprise once work starts.</p></div>
+<div class="sp rv st-4"><div class="l">STEP / 04</div><h4>Done and handed over</h4><p>Booked in for a time that suits, site left clean, compliance certificate issued.</p></div>
+</div>
+</section>
+
+<!-- 4 WORK -->
+<section id="work" style="padding-bottom:0"><div class="wrap">
+<div class="mark rv"><span class="no">4</span><span class="lb">Recent work</span></div>
+<div class="head rv"><h2>Finished jobs, <em>not renders.</em></h2>
+<p>A sample of recent residential work around the Shire.</p></div>
+</div>
+<div class="gal">
+<a class="gi wide tall wipe rv" href="#quote"><img src="images/pendants.jpg" alt="Pendant lighting installed over a dining table in a Sutherland Shire home" loading="lazy" width="990" height="1416">
+<div class="ov"><div class="c">JOB 01 &middot; Residential lighting</div><h4>Pendant lighting, dining and butler's pantry</h4></div></a>
+<a class="gi wipe rv st-1" href="#quote"><img src="images/kitchen.jpg" alt="Kitchen surface mounted downlights and under cabinet LED strip lighting" loading="lazy" width="958" height="1386">
+<div class="ov"><div class="c">JOB 02 &middot; Residential</div><h4>Kitchen downlights and under-bench LED</h4></div></a>
+<a class="gi wipe rv st-2" href="#quote"><img src="images/outdoor.jpg" alt="Exterior adjustable spot light installed under an eave" loading="lazy" width="1036" height="1404">
+<div class="ov"><div class="c">JOB 03 &middot; Exterior</div><h4>Spot and eave lighting</h4></div></a>
+<a class="gi ig-tile rv st-3" href="https://www.instagram.com/oltech_electrical" rel="noopener">
+<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+<h4>More on Instagram</h4><p>New jobs go up as they finish.</p><span>@oltech_electrical &rarr;</span></a>
+</div>
+</section>
+
+
+<!-- 5 REVIEWS -->
+<section id="reviews" style="padding-bottom:0"><div class="wrap">
+<div class="mark rv"><span class="no">5</span><span class="lb">What clients say</span></div>
+<div class="head rv"><h2>Most of the work comes from <em>people who have used him before.</em></h2></div>
+</div>
+<div class="revs">
+<div class="rev rv">
+<div class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</div>
+<blockquote>We have been using Ollie as our electrician for more than five years and wouldn't hesitate to recommend him. He first installed our security and camera system, and since then has completed a wide range of electrical work for us including chandeliers, outdoor lighting, and connecting our new oven. He is always professional, reliable and punctual, and consistently delivers a high standard of workmanship.</blockquote>
+<div class="by"><b>Max S.</b>Residential client &middot; 5 years</div>
+</div>
+<div class="rev-side rv">
+<h4>Worked with Oltech?</h4>
+<p>Reviews are how most people around the Shire decide who to ring. If Oliver has done a job for you, a few lines goes a long way.</p>
+<a href="#quote" class="btn b1"><span class="t">Leave a review</span></a>
+</div>
+</div>
+<!--
+  SLOT: add further reviews here as they come in. Copy this block inside .revs
+  and change .revs to grid-template-columns:repeat(3,1fr) once there are three.
+
+  <div class="rev rv">
+    <div class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</div>
+    <blockquote>Review text.</blockquote>
+    <div class="by"><b>Name</b>Job type &middot; Suburb</div>
+  </div>
+-->
+</section>
+
+<!-- 6 AREAS -->
+<section id="areas" class="tinted"><div class="wrap">
+<div class="mark rv"><span class="no">6</span><span class="lb">Where we work</span></div>
+<div class="head rv"><h2>Based in the Shire, <em>working across Sydney.</em></h2>
+<p>If your place is in Sydney metro and it is not on this list, ring anyway. It is most likely covered.</p></div>
+</div>
+<div class="areas">
+<div class="ar rv st-1"><div class="l">AREA 01</div><h4>Sutherland Shire</h4><p>Cronulla, Miranda, Caringbah, Sutherland, Engadine, Gymea, Kirrawee, Sylvania, Woolooware, Menai.</p></div>
+<div class="ar rv st-2"><div class="l">AREA 02</div><h4>St George</h4><p>Hurstville, Kogarah, Rockdale, Bexley, Mortdale, Oatley, Ramsgate, Sans Souci, Brighton-Le-Sands.</p></div>
+<div class="ar rv st-3"><div class="l">AREA 03</div><h4>Eastern Suburbs</h4><p>Bondi, Randwick, Coogee, Maroubra, Double Bay, Waverley, Paddington, Vaucluse, Rose Bay.</p></div>
+<div class="ar rv st-4"><div class="l">AREA 04</div><h4>Inner West &amp; CBD</h4><p>Marrickville, Newtown, Leichhardt, Balmain, Ashfield, Strathfield, Surry Hills, Alexandria, Mascot.</p></div>
+</div>
+</section>
+
+<!-- 7 FAQ -->
+<section id="faq"><div class="wrap">
+<div class="mark rv"><span class="no">7</span><span class="lb">Questions</span></div>
+<div class="head rv"><h2>The things people <em>ask first.</em></h2></div>
+<div class="faq">
+<div class="q"><button type="button">Are you licensed and insured?</button><div class="a"><p>Yes. Oltech Electrical holds electrical contractor licence 462275C and carries full public liability insurance. The licence number is on every quote and invoice, and certificates of currency are available on request.</p></div></div>
+<div class="q"><button type="button">Do you charge for quotes?</button><div class="a"><p>No. Quotes are free and itemised, so you can see what each part of the job costs before committing to anything.</p></div></div>
+<div class="q"><button type="button">How much does it cost to install an EV charger?</button><div class="a"><p>It depends on the distance from your switchboard to the charger and whether the board has spare capacity. Most single home installs are straightforward. The quote will say if a board upgrade is part of the job rather than leaving it as a surprise on install day.</p></div></div>
+<div class="q"><button type="button">Do you work with builders on new homes?</button><div class="a"><p>Regularly. Rough-in through to fit-off on new builds, renovations and extensions, working to the builder's program.</p></div></div>
+<div class="q"><button type="button">How quickly can you get to a fault?</button><div class="a"><p>Ring and you get a real answer on timing rather than a maybe. Faults that leave a property without power get priority.</p></div></div>
+<div class="q"><button type="button">What areas do you cover?</button><div class="a"><p>Based in the Sutherland Shire and working across Greater Sydney, including St George, the Eastern Suburbs, the Inner West and the CBD. If you are not sure, ring and ask.</p></div></div>
+</div>
+</div></section>
+
+<!-- DIRECT LINE -->
+<div class="line-band"><div class="wrap">
+<div class="mark"><span class="no">&rarr;</span><span class="lb">Direct line</span></div>
+<h2>Talk to the electrician, <em>not an office.</em></h2>
+<a href="tel:0450722284" class="big-num">0450 722 284</a>
+<p class="mono" style="margin-bottom:28px;color:rgba(25,29,34,.6)">Oltech Electrical &middot; Sutherland Shire &middot; Greater Sydney &middot; Licence 462275C</p>
+<div class="btns">
+<a href="tel:0450722284" class="btn b1"><span class="t">Call now</span></a>
+<a href="#quote" class="btn b2"><span class="t">Request a quote</span></a>
+</div>
+</div></div>
+
+<!-- QUOTE -->
+<section id="quote" style="padding:0"><div class="qg">
+<div class="qc">
+<div class="mark"><span class="no">8</span><span class="lb">Get a quote</span></div>
+<h2>Tell Oliver what <em>you need done.</em></h2>
+<p>Every quote comes back with the work listed out in full, so you know what you are paying for before anyone starts.</p>
+<a href="tel:0450722284" class="cl"><span><small>Call</small>0450 722 284</span></a>
+<a href="mailto:oliver@oltechelectrical.com.au" class="cl"><span><small>Email</small>oliver@oltechelectrical.com.au</span></a>
+<a href="https://www.instagram.com/oltech_electrical" rel="noopener" class="cl"><span><small>Instagram</small>@oltech_electrical</span></a>
+<div class="cl" style="border-bottom:0"><span><small>Licence &middot; ABN</small>462275C &middot; 81 336 642 971</span></div>
+</div>
+<form class="qf" action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST">
+<input type="hidden" name="_next" value="https://www.oltechelectrical.com.au/thank-you.html">
+<input type="hidden" name="_subject" value="New quote request from oltechelectrical.com.au">
+<div class="fd"><label for="n">Name</label><input id="n" name="name" required autocomplete="name"></div>
+<div class="fd"><label for="p">Phone</label><input id="p" name="phone" type="tel" required autocomplete="tel"></div>
+<div class="fd"><label for="e">Email</label><input id="e" name="email" type="email" required autocomplete="email"></div>
+<div class="fd"><label for="s">What do you need</label><select id="s" name="service">
+<option>Residential electrical</option><option>Commercial electrical</option><option>EV charger installation</option>
+<option>Fault finding or repair</option><option>Switchboard upgrade</option><option>Maintenance</option><option>Something else</option></select></div>
+<div class="fd"><label for="m">Details</label><textarea id="m" name="message" placeholder="Suburb, what the job involves, rough timing"></textarea></div>
+<button type="submit" class="btn b1" style="width:100%;justify-content:center"><span class="t">Request a quote</span></button>
+<p class="fine">Free quote, no obligation. Usually back to you same day.</p>
+</form>
+</div></section>
+
+<footer><div class="wrap">
+<div class="fg">
+<div><img src="images/logo-light.png" alt="Oltech Electrical">
+<p style="max-width:370px">Licensed electrical contractor based in the Sutherland Shire, working across Greater Sydney. Residential, commercial and industrial.</p>
+<p style="margin-top:16px">Licence 462275C<br>ABN 81 336 642 971</p></div>
+<div><h4>Services</h4><a href="#quote">Residential</a><a href="#quote">Commercial</a><a href="#quote">EV charging</a><a href="#quote">Fault finding</a><a href="#quote">Switchboard upgrades</a><a href="#quote">Maintenance</a></div>
+<div><h4>Contact</h4><a href="tel:0450722284">0450 722 284</a><a href="mailto:oliver@oltechelectrical.com.au">oliver@oltechelectrical.com.au</a><a href="https://www.instagram.com/oltech_electrical" rel="noopener">@oltech_electrical</a><a href="#areas">Servicing Greater Sydney</a></div>
+</div>
+<div class="fb"><p>&copy; 2026 Oltech Electrical. All rights reserved.</p><p>Built by Latitude Marketing</p></div>
+</div></footer>
+<a href="tel:0450722284" class="callbar">Call 0450 722 284</a>
+
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+  setTimeout(function(){document.getElementById('entry').classList.add('gone')},1400);
+
+  // hero load sequence
+  setTimeout(function(){document.body.classList.add('loaded')},260);
+
+  // keyword ticker, also carries the service terms
+  var terms=['Residential electrical','EV charger installation','Switchboard upgrades','Commercial fit-outs','Fault finding','Lighting design','Safety switches','Maintenance','Licensed 462275C'];
+  var row=terms.map(function(t){return '<i>'+t+'<b>/</b></i>'}).join('');
+  var tk=document.getElementById('tick'); if(tk) tk.innerHTML=row+row;
+
+  // hero parallax
+  var hm=document.querySelector('.hero-media img'), ticking=false;
+  if(hm && !window.matchMedia('(prefers-reduced-motion:reduce)').matches){
+    window.addEventListener('scroll',function(){
+      if(ticking)return; ticking=true;
+      requestAnimationFrame(function(){
+        var y=window.scrollY;
+        if(y<window.innerHeight*1.2){hm.style.transform='scale(1.02) translateY('+(y*0.07)+'px)'}
+        ticking=false;
+      });
+    },{passive:true});
+  }
+
+  var h=document.getElementById('hdr');
+  window.addEventListener('scroll',function(){h.classList.toggle('sc',window.scrollY>60)},{passive:true});
+  var b=document.getElementById('burger'),m=document.getElementById('mnav');
+  b.addEventListener('click',function(){m.classList.toggle('open')});
+  m.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){m.classList.remove('open')})});
+  document.querySelectorAll('.q button').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var q=btn.parentElement,a=q.querySelector('.a'),open=q.classList.contains('open');
+      document.querySelectorAll('.q').forEach(function(x){x.classList.remove('open');x.querySelector('.a').style.maxHeight=null});
+      if(!open){q.classList.add('open');a.style.maxHeight=a.scrollHeight+'px'}
+    });
+  });
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});
+  document.querySelectorAll('.rv').forEach(function(el){io.observe(el)});
+  var co=new IntersectionObserver(function(es){es.forEach(function(e){
+    if(!e.isIntersecting)return; co.unobserve(e.target);
+    var el=e.target,end=parseInt(el.dataset.count,10),t0=null;
+    function step(t){if(!t0)t0=t;var p=Math.min((t-t0)/900,1);
+      el.textContent=Math.round(end*(1-Math.pow(1-p,3)));
+      if(p<1)requestAnimationFrame(step)}
+    requestAnimationFrame(step);
+  })},{threshold:.5});
+  if(!window.matchMedia('(prefers-reduced-motion:reduce)').matches){document.querySelectorAll('[data-count]').forEach(function(el){el.textContent='0';co.observe(el)});}
+});
+</script>
+</body></html>
