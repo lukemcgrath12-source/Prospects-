@@ -422,14 +422,14 @@ footer{background:var(--charcoal);color:var(--on-charcoal-muted);font-size:14px}
 
 /* STAR AIRCON additions */
 .hero{background:radial-gradient(120% 90% at 85% 10%,#1d3a5c 0%,rgba(14,26,42,0) 60%),radial-gradient(80% 70% at 10% 100%,#163049 0%,rgba(14,26,42,0) 70%),var(--charcoal)}
-.hero::after{display:none}
-.air{position:absolute;inset:0;width:100%;height:100%;opacity:.55}
+.hero .poster{opacity:.6}
+.air{position:absolute;inset:0;width:100%;height:100%;opacity:.3;z-index:1}
 .air path{fill:none;stroke:#7fb2da;stroke-width:1.2;stroke-linecap:round;stroke-dasharray:6 18;animation:flow 9s linear infinite}
 .air path:nth-child(2n){stroke:#cfe0ee;opacity:.6;animation-duration:13s}
 .air path:nth-child(3n){animation-duration:11s;opacity:.4}
 @keyframes flow{to{stroke-dashoffset:-480}}
 @media (prefers-reduced-motion:reduce){.air path{animation:none}}
-.hero-star{position:absolute;right:clamp(-120px,-4vw,0px);top:50%;transform:translateY(-55%);width:clamp(320px,46vw,720px);height:auto;opacity:.16}
+.hero-star{position:absolute;z-index:1;right:clamp(-120px,-4vw,0px);top:50%;transform:translateY(-55%);width:clamp(320px,46vw,720px);height:auto;opacity:.16}
 @media (max-width:760px){.hero-star{top:22%;right:-80px;width:340px;opacity:.12}}
 .ph-box{position:relative;width:100%;height:100%;min-height:100%;background:repeating-linear-gradient(135deg,#dfe8f0 0 14px,#e8eff5 14px 28px);display:grid;place-items:center;text-align:center;color:#5a7690;font-size:12px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;padding:20px}
 .ph-box svg{width:34px;height:34px;margin:0 auto 10px;display:block;opacity:.7}
@@ -467,6 +467,7 @@ footer{background:var(--charcoal);color:var(--on-charcoal-muted);font-size:14px}
 
 <main id="top">
 <section class="hero on-dark">
+  <img class="poster" src="https://images.unsplash.com/photo-1698479603408-1a66a6d9e80f?auto=format&fit=crop&w=2000&q=75" alt="">
   <svg class="air" viewBox="0 0 1440 900" preserveAspectRatio="none" aria-hidden="true"><path d="M-50 120 C 300 80, 700 160, 1500 110"/><path d="M-50 190 C 300 150, 700 230, 1500 180"/><path d="M-50 260 C 300 220, 700 300, 1500 250"/><path d="M-50 330 C 300 290, 700 370, 1500 320"/><path d="M-50 400 C 300 360, 700 440, 1500 390"/><path d="M-50 470 C 300 430, 700 510, 1500 460"/><path d="M-50 540 C 300 500, 700 580, 1500 530"/><path d="M-50 610 C 300 570, 700 650, 1500 600"/><path d="M-50 680 C 300 640, 700 720, 1500 670"/><path d="M-50 750 C 300 710, 700 790, 1500 740"/><path d="M-50 820 C 300 780, 700 860, 1500 810"/><path d="M-50 890 C 300 850, 700 930, 1500 880"/></svg>
   <svg class="hero-star" viewBox="0 0 600 560" aria-hidden="true"><path d="M300 40 L361 214 L545 218 L399 330 L452 506 L300 402 L148 506 L201 330 L55 218 L239 214 Z" fill="none" stroke="#cfe0ee" stroke-width="3" stroke-linejoin="round"/></svg>
   <div class="wrap">
@@ -493,7 +494,7 @@ footer{background:var(--charcoal);color:var(--on-charcoal-muted);font-size:14px}
       <p class="lede rv">Star Aircon &amp; Refrigeration is run by Mohammed. We install, service and repair air conditioning and refrigeration for homes, shops and businesses, and you deal with the person doing the work.</p>
     </div>
     <div class="ab-grid">
-      <figure class="ab-main rv"><div class="ph-box"><div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14" rx="1"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 8"/></svg>Hero job photo</div></div><figcaption class="tag">Split system install</figcaption></figure>
+      <figure class="ab-main rv"><img src="https://images.unsplash.com/photo-1660330589827-da8ab7dd3c02?auto=format&fit=crop&w=1400&q=75" alt="Technician working on a wall-mounted unit" loading="lazy" style="object-position:50% 35%"><figcaption class="tag">Split system install</figcaption></figure>
       <div class="ab-side">
         <div class="ab-card rv">
           <svg class="ab-mark" aria-hidden="true"><use href="#mark"/></svg>
@@ -503,7 +504,7 @@ footer{background:var(--charcoal);color:var(--on-charcoal-muted);font-size:14px}
           </div>
           <a class="btn btn-outline" href="#quote">Tell us what's going on <svg><use href="#arr"/></svg></a>
         </div>
-        <figure class="ab-sec rv"><div class="ph-box"><div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14" rx="1"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 8"/></svg>Job photo</div></div><figcaption class="tag">Commercial refrigeration</figcaption></figure>
+        <figure class="ab-sec rv"><img src="https://images.unsplash.com/photo-1601599561213-832382fd07ba?auto=format&fit=crop&w=900&q=75" alt="Commercial refrigerated display cases" loading="lazy"><figcaption class="tag">Commercial refrigeration</figcaption></figure>
       </div>
     </div>
   </div>
@@ -534,12 +535,12 @@ footer{background:var(--charcoal);color:var(--on-charcoal-muted);font-size:14px}
       <a class="btn btn-outline" href="#quote">Get a quote <svg><use href="#arr"/></svg></a>
     </div>
     <div class="cards">
-      <div class="card rv"><div class="ph"><div class="ph-box"><div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14" rx="1"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 8"/></svg>Job photo</div></div><span class="pill">Residential</span></div><div class="meta"><h3>Split system install</h3><span class="arrow"><svg><use href="#arr"/></svg></span></div></div>
-      <div class="card rv"><div class="ph"><div class="ph-box"><div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14" rx="1"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 8"/></svg>Job photo</div></div><span class="pill">Servicing</span></div><div class="meta"><h3>Unit service and clean</h3><span class="arrow"><svg><use href="#arr"/></svg></span></div></div>
-      <div class="card rv"><div class="ph"><div class="ph-box"><div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14" rx="1"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 8"/></svg>Job photo</div></div><span class="pill">Commercial</span></div><div class="meta"><h3>Display fridge repair</h3><span class="arrow"><svg><use href="#arr"/></svg></span></div></div>
-      <div class="card rv"><div class="ph"><div class="ph-box"><div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14" rx="1"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 8"/></svg>Job photo</div></div><span class="pill">Commercial</span></div><div class="meta"><h3>Cool room install</h3><span class="arrow"><svg><use href="#arr"/></svg></span></div></div>
-      <div class="card rv"><div class="ph"><div class="ph-box"><div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14" rx="1"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 8"/></svg>Job photo</div></div><span class="pill">Repairs</span></div><div class="meta"><h3>Breakdown callout</h3><span class="arrow"><svg><use href="#arr"/></svg></span></div></div>
-      <div class="card rv"><div class="ph"><div class="ph-box"><div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14" rx="1"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 8"/></svg>Job photo</div></div><span class="pill">Residential</span></div><div class="meta"><h3>Multi-room install</h3><span class="arrow"><svg><use href="#arr"/></svg></span></div></div>
+      <div class="card rv"><div class="ph"><img src="https://images.unsplash.com/photo-1759772238012-9d5ad59ae637?auto=format&fit=crop&w=800&q=75" alt="Wall-mounted split system indoor unit" loading="lazy"><span class="pill">Residential</span></div><div class="meta"><h3>Split system install</h3><span class="arrow"><svg><use href="#arr"/></svg></span></div></div>
+      <div class="card rv"><div class="ph"><img src="https://images.unsplash.com/photo-1718203862467-c33159fdc504?auto=format&fit=crop&w=800&q=75" alt="Outdoor air conditioning unit against a dark wall" loading="lazy"><span class="pill">Servicing</span></div><div class="meta"><h3>Outdoor unit service</h3><span class="arrow"><svg><use href="#arr"/></svg></span></div></div>
+      <div class="card rv"><div class="ph"><img src="https://images.unsplash.com/photo-1601599967100-f16100982063?auto=format&fit=crop&w=800&q=75" alt="Commercial display fridge" loading="lazy"><span class="pill">Commercial</span></div><div class="meta"><h3>Display fridge repair</h3><span class="arrow"><svg><use href="#arr"/></svg></span></div></div>
+      <div class="card rv"><div class="ph"><img src="https://images.unsplash.com/photo-1642749776312-aa42ce20c9f5?auto=format&fit=crop&w=800&q=75" alt="Technicians installing rooftop air conditioning units" loading="lazy"><span class="pill">Commercial</span></div><div class="meta"><h3>Rooftop install</h3><span class="arrow"><svg><use href="#arr"/></svg></span></div></div>
+      <div class="card rv"><div class="ph"><img src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&w=800&q=75" alt="Technician testing a unit with a meter" loading="lazy"><span class="pill">Repairs</span></div><div class="meta"><h3>Breakdown callout</h3><span class="arrow"><svg><use href="#arr"/></svg></span></div></div>
+      <div class="card rv"><div class="ph"><img src="https://images.unsplash.com/photo-1667983453881-4992fe86ab1b?auto=format&fit=crop&w=800&q=75" alt="Four air conditioning units on a building wall" loading="lazy"><span class="pill">Commercial</span></div><div class="meta"><h3>Multi-unit install</h3><span class="arrow"><svg><use href="#arr"/></svg></span></div></div>
     </div>
     <div class="swipe-prog" aria-hidden="true"><i></i></div>
     <p class="swipe-hint" aria-hidden="true">Swipe for more <svg><use href="#arr"/></svg></p>
@@ -572,7 +573,7 @@ footer{background:var(--charcoal);color:var(--on-charcoal-muted);font-size:14px}
         <li class="rv"><div><b>Ongoing servicing</b><p>We can book in regular services to keep everything running.</p></div></li>
       </ol>
     </div>
-    <div class="ph rv"><div class="ph-box"><div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14" rx="1"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 8"/></svg>Mohammed on the job</div></div></div>
+    <div class="ph rv"><img src="https://images.unsplash.com/photo-1757219525975-03b5984bc6e8?auto=format&fit=crop&w=1100&q=75" alt="Outdoor air conditioning unit mounted on a wall" loading="lazy"></div>
   </div>
 </section>
 
@@ -624,7 +625,7 @@ footer{background:var(--charcoal);color:var(--on-charcoal-muted);font-size:14px}
 </section>
 
 <section class="final on-dark">
-  <div class="ph-bg"></div>
+  <img src="https://images.unsplash.com/photo-1722010811002-a772b2066890?auto=format&fit=crop&w=1800&q=75" alt="" loading="lazy">
   <div class="wrap">
     <span class="eyebrow">Book a service</span>
     <h2>Stay cool. <strong>Keep it running.</strong></h2>
